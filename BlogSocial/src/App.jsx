@@ -2,7 +2,7 @@ import conf from './conf/conf';
 import './App.css'
 
 function App() {
-  console.log(conf.appwriteUrl);
+  console.log(import.meta.env.VITE_APPWRITE_URL);
 
   return (
   <>
